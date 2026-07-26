@@ -1,0 +1,4 @@
+system_name: "R1-LAB"
+router_name: "Base"
+loopback_name: "system"
+loopback_ip: "10.0.0.1"

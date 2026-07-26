@@ -1,0 +1,5 @@
+inventory.yaml
+*.log
+__pycache__/
+*.pyc
+reports/

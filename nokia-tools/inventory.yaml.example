@@ -1,0 +1,17 @@
+# Copia este archivo a inventory.yaml y completa las credenciales reales.
+# NUNCA subas inventory.yaml con credenciales reales al repositorio.
+devices:
+  R1:
+    host: 192.0.2.10
+    username: admin
+    password: "changeme"
+    port: 22
+    device_type: nokia_sros
+    secret: ""      # password de enable, si aplica
+
+  R2:
+    host: 192.0.2.11
+    username: admin
+    password: "changeme"
+    port: 22
+    device_type: nokia_sros
