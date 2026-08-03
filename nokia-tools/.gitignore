@@ -1,0 +1,7 @@
+inventory.yaml
+pairs.yaml
+*.log
+__pycache__/
+*.pyc
+reports/
+*.xlsx

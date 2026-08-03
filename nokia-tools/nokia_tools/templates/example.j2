@@ -1,0 +1,12 @@
+{# Ejemplo: configura un system name y una interfaz de loopback en un router SR OS. #}
+configure
+system
+name "{{ system_name }}"
+exit
+router "{{ router_name | default("Base") }}"
+interface "{{ loopback_name }}"
+address {{ loopback_ip }}/32
+loopback
+no shutdown
+exit
+exit

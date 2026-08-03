@@ -1,0 +1,19 @@
+# Copia este archivo a pairs.yaml y completa/ajusta los datos reales.
+# No lleva credenciales (el script las pide por consola). pairs.yaml está
+# en .gitignore para no subir direcciones IP internas al repo.
+pairs:
+  - name: RDC
+    a:
+      name: "080000-RDC01-7s-SANTAFE"
+      host: 10.155.98.160
+    b:
+      name: "080000-RDC02-7s-SANTAFE"
+      host: 10.155.98.161
+
+  - name: RTB
+    a:
+      name: "080000-RTB01-SANTAFE"
+      host: 10.155.108.214
+    b:
+      name: "080000-RTB02-SANTAFE"
+      host: 10.155.108.215
